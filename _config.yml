@@ -1,3 +1,12 @@
+# @Author: CHC
+# @Date:   2017-07-24T09:52:55+08:00
+# @Email:  chenhuachaoxyz@gmail.com
+# @Filename: _config.yml
+# @Last modified by:   CHC
+# @Last modified time: 2017-07-26T01:22:59+08:00
+# @License: MIT
+# @Copyright: 2017
+
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
@@ -6,7 +15,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "CHC, Blog"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -47,8 +56,8 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
+  # categories: /categories/
+  about: /about/
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
@@ -77,9 +86,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+# scheme: Muse
+# scheme: Mist
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -106,11 +115,15 @@ social_icons:
   Weibo: weibo
 
 # Blog rolls
-#links_title: Links
+links_title: Links
 #links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+    Changkun's Blog: https://changkun.us/
+    Berlin's Website: http://www.berlinchans.com/
+    Xuesong's Blog: http://esarlost.top/
+
+  # Title: http://example.com/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -157,7 +170,7 @@ sidebar:
 
   # Scroll percent label in b2t button
   scrollpercent: false
-  
+
   # Enable sidebar on narrow view
   onmobile: false
 
@@ -204,7 +217,7 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -286,6 +299,11 @@ mathjax:
   enable: false
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+
+katex:
+    enable: true
+    # cdn: //cdn.bootcss.com/KaTeX/0.7.1/katex.min.js
+    css: //cdn.bootcss.com/KaTeX/0.7.1/katex.min.css
 
 # Han Support docs: https://hanzi.pro/
 han: false
