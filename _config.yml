@@ -3,7 +3,7 @@
 # @Email:  chenhuachaoxyz@gmail.com
 # @Filename: _config.yml
 # @Last modified by:   CHC
-# @Last modified time: 2017-07-26T23:37:57+08:00
+# @Last modified time: 2017-07-27T01:02:26+08:00
 # @License: MIT
 # @Copyright: 2017
 
@@ -23,7 +23,7 @@ keywords: "CHC, Blog"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2015
 
 # icon between year and author @Footer
 authoricon: heart
@@ -98,7 +98,8 @@ scheme: Pisces
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
+    GitHub: https://github.com/CHENXCHEN
   #LinkLabel: Link
 
 # Social Links Icons
@@ -199,7 +200,7 @@ post_meta:
   item_text: true
   created_at: true
   updated_at: false
-  categories: true
+  categories: false
 
 # Post wordcount display settings
 # Dependencies: https://github.com/willin/hexo-wordcount
@@ -319,9 +320,9 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
-  count: true
+  enable: true
+  shortname: chchc
+  count: false
 
 # Hypercomments
 #hypercomments_id:
@@ -421,9 +422,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: mDPKazibdaDtNx1P8b9UNrwJ-gzGzoHsz
+  app_key: riJApbqqq0A3fh3WFyMEQrvm
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
