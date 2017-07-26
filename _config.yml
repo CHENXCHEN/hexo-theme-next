@@ -3,7 +3,7 @@
 # @Email:  chenhuachaoxyz@gmail.com
 # @Filename: _config.yml
 # @Last modified by:   CHC
-# @Last modified time: 2017-07-26T18:02:44+08:00
+# @Last modified time: 2017-07-26T23:37:57+08:00
 # @License: MIT
 # @Copyright: 2017
 
@@ -641,3 +641,4 @@ images: images
 version: 5.1.1
 
 particlesjs: snow
+categories: false

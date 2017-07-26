@@ -49,15 +49,17 @@
             </div>
           {% endif %}
 
-          {% if site.categories.length > 0 %}
-            {% set categoriesPageQuery = site.pages.find({type: 'categories'}, {lean: true}) %}
-            {% set hasCategoriesPage = categoriesPageQuery.length > 0 %}
-            <div class="site-state-item site-state-categories">
-              {% if hasCategoriesPage %}<a href="{{ url_for(categoriesPageQuery[0].path) }}">{% endif %}
-                <span class="site-state-item-count">{{ site.categories.length }}</span>
-                <span class="site-state-item-name">{{ __('state.categories') }}</span>
-              {% if hasCategoriesPage %}</a>{% endif %}
-            </div>
+          {% if theme.categories %}
+              {% if site.categories.length > 0 %}
+                {% set categoriesPageQuery = site.pages.find({type: 'categories'}, {lean: true}) %}
+                {% set hasCategoriesPage = categoriesPageQuery.length > 0 %}
+                <div class="site-state-item site-state-categories">
+                  {% if hasCategoriesPage %}<a href="{{ url_for(categoriesPageQuery[0].path) }}">{% endif %}
+                    <span class="site-state-item-count">{{ site.categories.length }}</span>
+                    <span class="site-state-item-name">{{ __('state.categories') }}</span>
+                  {% if hasCategoriesPage %}</a>{% endif %}
+                </div>
+              {% endif %}
           {% endif %}
 
           {% if site.tags.length > 0 %}
