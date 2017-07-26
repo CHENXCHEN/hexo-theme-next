@@ -640,4 +640,4 @@ images: images
 # Theme version
 version: 5.1.1
 
-particlesjs: default
+particlesjs: snow
