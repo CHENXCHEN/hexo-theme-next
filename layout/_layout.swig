@@ -19,6 +19,7 @@
     {% set container_class = container_class + 'sidebar-position-' + theme.sidebar.position %}
   {% endif %}
 
+  <div id="particles-js" class="particles" style="position: fixed;width: 100%;height: 100%;z-index:-10"></div>
   <div class="{{ container_class }} {% block page_class %}{% endblock %} ">
     <div class="headband"></div>
 
@@ -27,7 +28,6 @@
     </header>
 
     <main id="main" class="main">
-    <div id="particles-js" class="particles" style="position: fixed;width: 100%;height: 100%;"></div>
       <div class="main-inner">
         <div class="content-wrap">
           <div id="content" class="content">
