@@ -4,7 +4,7 @@
  * @Email:  chenhuachaoxyz@gmail.com
  * @Filename: snow.js
  * @Last modified by:   CHC
- * @Last modified time: 2017-07-26T18:01:51+08:00
+ * @Last modified time: 2017-07-26T18:01:39+08:00
  * @License: MIT
  * @Copyright: 2017
  */
@@ -12,14 +12,14 @@
 particlesJS('particles-js', {
   "particles": {
     "number": {
-      "value": 108,
+      "value": 48,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#26c6da"
+      "value": "#b39ddb"
     },
     "shape": {
       "type": "circle",
@@ -38,7 +38,7 @@ particlesJS('particles-js', {
     },
     "opacity": {
       "value": 0.5,
-      "random": true,
+      "random": false,
       "anim": {
         "enable": false,
         "speed": 1,
@@ -47,8 +47,8 @@ particlesJS('particles-js', {
       }
     },
     "size": {
-      "value": 10,
-      "random": true,
+      "value": 5,
+      "random": false,
       "anim": {
         "enable": false,
         "speed": 40,
@@ -57,17 +57,17 @@ particlesJS('particles-js', {
       }
     },
     "line_linked": {
-      "enable": false,
-      "distance": 500,
-      "color": "#ffffff",
+      "enable": true,
+      "distance": 150,
+      "color": "#b39ddb",
       "opacity": 0.4,
-      "width": 2
+      "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 5,
+      "speed": 6,
       "direction": "none",
-      "random": true,
+      "random": false,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
@@ -86,8 +86,8 @@ particlesJS('particles-js', {
         "mode": "repulse"
       },
       "onclick": {
-        "enable": true,
-        "mode": "repulse"
+        "enable": false,
+        "mode": "bubble"
       },
       "resize": true
     },
@@ -95,14 +95,14 @@ particlesJS('particles-js', {
       "grab": {
         "distance": 400,
         "line_linked": {
-          "opacity": 0.5
+          "opacity": 1
         }
       },
       "bubble": {
         "distance": 400,
-        "size": 4,
-        "duration": 0.3,
-        "opacity": 1,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
         "speed": 3
       },
       "repulse": {
