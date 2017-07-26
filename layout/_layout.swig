@@ -27,6 +27,7 @@
     </header>
 
     <main id="main" class="main">
+    <div id="particles-js" class="particles" style="position: fixed;width: 100%;height: 100%;"></div>
       <div class="main-inner">
         <div class="content-wrap">
           <div id="content" class="content">

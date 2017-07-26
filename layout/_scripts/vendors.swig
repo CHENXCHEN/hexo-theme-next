@@ -12,6 +12,8 @@
 {% set js_vendors.lazyload    = 'jquery_lazyload/jquery.lazyload.js?v=1.9.7' %}
 {% set js_vendors.velocity    = 'velocity/velocity.min.js?v=1.2.1' %}
 {% set js_vendors.velocity_ui = 'velocity/velocity.ui.min.js?v=1.2.1' %}
+{% set js_vendors.particle_js = 'particlejs/particles.js?v=2.0.0' %}
+{% set js_vendors.particle_exe = 'particlejs/snow.js?v=0.0.1' %}
 
 {% if theme.fancybox %}
   {% set js_vendors.fancybox  = 'fancybox/source/jquery.fancybox.pack.js?v=2.1.5' %}
